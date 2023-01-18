@@ -1,4 +1,4 @@
-body {
+/* body {
     text-align: center;
     margin: 400px auto;
     background-color: palevioletred;
@@ -33,4 +33,12 @@ body {
     padding: 10px 20px;
     margin: 10px;
     border-radius: 20px;
+} */
+
+
+.btn {
+    border: ;
+    margin: 5px;
+    padding: 5px 10px;
+    background-color: blueviolet;
 }
