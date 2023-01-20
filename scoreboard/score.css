@@ -1,0 +1,19 @@
+
+body { 
+    text-align: center;
+    margin: 0;
+}
+
+#home-container {
+    margin: 40px auto;
+}
+
+#guest-container {
+    margin: 40px auto;
+}
+
+#board {
+    display: flex;
+    width: 400px;
+    margin: 0 auto
+}

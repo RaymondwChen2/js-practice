@@ -7,24 +7,27 @@
     <title>Scoreboard</title>
 </head>
 <body>
-    <div id="home-container">
-        <div id="home">Home</div>
-        <div>0</div>
-        <div>
-            <button class="plus1" onclick="plus1()" value="home">+1</button>
-            <button class="plus2" onclick="plus2()" value="home">+2</button>
-            <button class="plus3" onclick="plus3()" value="home">+3</button>
+    <div id="board">
+        <div id="home-container">
+            <div id="home">Home</div>
+            <div id="home-score">0</div>
+            <div>
+                <button class="plus1" onclick="hPlus1()" value="home">+1</button>
+                <button class="plus2" onclick="hPlus2()" value="home">+2</button>
+                <button class="plus3" onclick="hPlus3()" value="home">+3</button>
+            </div>
+        </div>
+        <div id="guest-container">
+            <div id="guest">Guest</div>
+            <div id="guest-score">0</div>
+            <div>
+                <button class="plus1" onclick="gPlus1()" value="guest">+1</button>
+                <button class="plus2" onclick="gPlus2()" value="guest">+2</button>
+                <button class="plus3" onclick="gPlus3()" value="guest">+3</button>
+            </div>
         </div>
     </div>
-    <div id="guest-container">
-        <div id="guest">Guest</div>
-        <div>0</div>
-        <div>
-            <button class="plus1" onclick="plus1()" value="guest">+1</button>
-            <button class="plus2" onclick="plus2()" value="guest">+2</button>
-            <button class="plus3" onclick="plus3()" value="guest">+3</button>
-        </div>
-    </div>
+    <button id="reset" onclick="reset()">RESET</button>
     <script src="score.js"></script>
 </body>
 </html>
