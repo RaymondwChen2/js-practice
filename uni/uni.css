@@ -1,11 +1,11 @@
 body {
-    background: linear-gradient(blue purple);
+    background: linear-gradient(blue, black);
     text-align: center;
     margin: 0;
 }
 
-.class {
-    background-color: black;
-    background-image: url("uniboi.jpg");
+.img-pic {
     width: 400px;
+    height: 400px;
 }
+
