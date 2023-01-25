@@ -5,13 +5,15 @@ body {
 }
 
 .img-pic {
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    height: 50%;
     background-image: url("me.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     margin: 5px auto;
-    background-size:cover;
 }
 
 .img-pic:hover {
     background-image: url("bday.gif");
+    width: 400px;
 }
